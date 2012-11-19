@@ -10,7 +10,6 @@ However, at present (November 2012) the sample code is for iOS 3 and Xcode 3. Th
 1. Do not use Storyboards. 
 1. Call the project “Locations”.
 1. In `AppDelegate.m`, under `application didFinishLaunchingWithOptions:` add the line
-
 ```obj-c
 self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 ```
