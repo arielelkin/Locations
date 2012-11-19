@@ -1,3 +1,5 @@
+#Sample code for Apple's Core Data Tutorial 
+
 Apple provides a very tutorial on using Core Data on iOS: [Core Data Tutorial for iOS](http://developer.apple.com/library/ios/#documentation/DataManagement/Conceptual/iPhoneCoreData01/Introduction/Introduction.html)
 
 However, at present (November 2012) the sample code is for iOS 3 and Xcode 3. The sample code doesn't use ARC and is missing some amendments to enable the code to run on Xcode 4. 
@@ -7,7 +9,7 @@ To go through Apple's tutorial using Xcode 4,
 
 In `AppDelegate.m`, add the line
 
-```objc
+```obj-c
 self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 ```
 under `- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {`
